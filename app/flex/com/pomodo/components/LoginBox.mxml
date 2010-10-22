@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" height="100%" 
+	label = "Login">
+	<mx:Form labelWidth = "150">
+		<mx:FormItem required = "true" label = "Username">
+			<mx:TextInput id = "usernameTI" />
+		</mx:FormItem>
+		<mx:FormItem required = "true" label = "Password">
+			<mx:TextInput id = "passwordTI" />
+		</mx:FormItem>
+		<mx:FormItem>
+			<mx:Button id = "loginButton" label = "Login"/>
+		</mx:FormItem>
+	</mx:Form>
+</mx:VBox>

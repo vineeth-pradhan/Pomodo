@@ -1,0 +1,737 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (141.0ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (172.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-12 13:53:55) [GET]
+
+ActionController::RoutingError (No route matches "/hello/say_hello/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-12 13:54:05) [GET]
+
+ActionController::RoutingError (No route matches "/hello/say_hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-12 13:54:43) [GET]
+
+ActionController::RoutingError (No route matches "/Hello/say_hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-12 13:54:47) [GET]
+
+ActionController::RoutingError (No route matches "/hello/say_hello/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-12 13:54:53) [GET]
+
+ActionController::RoutingError (No route matches "/hello/say_hello.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-12 13:58:19) [GET]
+
+ActionController::RoutingError (No route matches "/hello/say_hello.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-12 13:58:20) [GET]
+
+ActionController::RoutingError (No route matches "/hello/say_hello.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#say_hello (for 127.0.0.1 at 2010-10-12 13:58:23) [GET]
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/say_hello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-12 14:04:02) [GET]
+
+ActionController::RoutingError (No route matches "/flex/pomodo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:04:41) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:04:43) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:04:49) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:04:53) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:04:55) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:05:15) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:05:18) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:05:23) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:05:49) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:05:56) [GET]
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:13) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:14) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:15) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:15) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:15) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:18) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:19) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:19) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:20) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:29) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:30) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:30) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:30) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:30) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:31) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:34) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:35) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:35) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:38) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:49) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:50) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:51) [GET]
+
+ActionController::UnknownAction (No action responded to sayhello. Actions: say_hello):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:06:58) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:20:40) [GET]
+Completed in 1031ms (View: 390, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 14:20:44) [GET]
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (204.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (63.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 16:47:14) [GET]
+Completed in 1046ms (View: 15, DB: 267) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 16:49:08) [GET]
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 16:49:15) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 16:49:18) [GET]
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 16:49:22) [GET]
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 16:49:24) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 16:49:26) [GET]
+Completed in 0ms (View: 0, DB: 16) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 16:49:28) [GET]
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 16:49:29) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 17:44:16) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 17:44:18) [GET]
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 17:44:18) [GET]
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 17:44:19) [GET]
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 17:44:19) [GET]
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 17:44:20) [GET]
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 18:21:17) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 18:21:20) [GET]
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 18:21:31) [GET]
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 18:38:51) [GET]
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 18:38:53) [GET]
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-12 18:39:01) [GET]
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (47.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101013040858)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (110.0ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(40), `name` varchar(100) DEFAULT '', `email` varchar(100), `first_name` varchar(100), `last_name` varchar(100), `crypted_password` varchar(40), `salt` varchar(40), `created_at` datetime, `updated_at` datetime, `remember_token` varchar(40), `remember_token_expires_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;35;1mSQL (188.0ms)[0m   [0mCREATE UNIQUE INDEX `index_users_on_login` ON `users` (`login`)[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101013040858')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-13 11:10:47) [GET]
+  [4;36;1mUser Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering users/new
+Completed in 594ms (View: 547, DB: 16) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-10-13 11:11:27) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"vineeth", "password"=>"vineeth", "login"=>"porsamini", "email"=>"porsamini@gmail.com"}, "commit"=>"Sign up", "authenticity_token"=>"kViNm4YCvPguZyWTxwM66j9SsbKrLcTHUYoMpwpHXwU="}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'porsamini') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'porsamini@gmail.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO `users` (`name`, `salt`, `updated_at`, `crypted_password`, `remember_token_expires_at`, `remember_token`, `first_name`, `login`, `last_name`, `email`, `created_at`) VALUES('', '2effac200f9141cc648db920723077be25f42c83', '2010-10-13 05:41:27', '964cdbdfe1b3f755244ac4e617683b179cb521a6', NULL, NULL, NULL, 'porsamini', NULL, 'porsamini@gmail.com', '2010-10-13 05:41:27')[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 125ms (DB: 47) | 302 Found [http://localhost/users]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-13 11:13:50) [GET]
+Rendering sessions/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-13 11:14:48) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"kViNm4YCvPguZyWTxwM66j9SsbKrLcTHUYoMpwpHXwU=", "login"=>"vineeth", "password"=>"vineeth"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`login` = 'vineeth') LIMIT 1[0m
+Failed login for 'vineeth' from 127.0.0.1 at Wed Oct 13 05:44:48 UTC 2010
+Rendering sessions/new
+Completed in 125ms (View: 15, DB: 0) | 200 OK [http://localhost/session]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-13 11:14:56) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"kViNm4YCvPguZyWTxwM66j9SsbKrLcTHUYoMpwpHXwU=", "login"=>"porsamini", "password"=>"vineeth"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (31.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`login` = 'porsamini') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 63ms (DB: 31) | 302 Found [http://localhost/session]
+  [4;35;1mSQL (15.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-13 14:05:02) [GET]
+Completed in 3062ms (View: 500, DB: 15) | 200 OK [http://localhost/hello/sayhello]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-13 14:05:08) [GET]
+Completed in 187ms (View: 15, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HelloController#sayhello (for 127.0.0.1 at 2010-10-13 14:05:09) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/sayhello]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-22 11:28:25) [POST]
+
+ActionController::RoutingError (No route matches "/rubyamf/gateway" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-22 11:28:26) [POST]
+
+ActionController::RoutingError (No route matches "/rubyamf/gateway" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-22 11:54:11) [GET]
+Rendering sessions/new
+Completed in 438ms (View: 438, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-22 11:54:29) [GET]
+  [4;36;1mUser Columns (63.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering users/new
+Completed in 141ms (View: 47, DB: 63) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-10-22 11:54:38) [GET]
+  Parameters: {"id"=>"login"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create and new):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-10-22 11:54:43) [GET]
+  Parameters: {"id"=>"create"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create and new):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-10-22 14:31:25) [GET]
+  [4;36;1mUser Columns (31.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering users/new
+Completed in 187ms (View: 62, DB: 31) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-22 14:31:38) [GET]
+
+ActionController::RoutingError (No route matches "/bin" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (16.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-22 14:32:27) [GET]
+
+ActionController::RoutingError (No route matches "/app/flex/pomodo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-22 14:32:40) [GET]
+
+ActionController::RoutingError (No route matches "/app/flex/pomodo.mxml" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

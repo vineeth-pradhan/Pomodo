@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" height="100%" 
+	label = "Create Account">
+	<mx:Form labelWidth="150">	
+		<mx:FormItem required="true" label = "Username">
+			<mx:TextInput id = "loginTI"/>
+		</mx:FormItem>
+		<mx:FormItem required="true" label = "Email Address">
+			<mx:TextInput id = "emailTI"/>
+		</mx:FormItem>
+		<mx:FormItem label = "First name" >
+			<mx:TextInput id = "firstNameTI"/>
+		</mx:FormItem>
+		<mx:FormItem label = "Last name">
+			<mx:TextInput id = "lastNameTI"/>
+		</mx:FormItem>
+		<mx:FormItem label = "Password" required="true">
+			<mx:TextInput id = "passwordTI"
+				displayAsPassword = "true"/>
+		</mx:FormItem>
+		<mx:FormItem label = "Confirm Password" required="true">
+			<mx:TextInput id = "confirmPasswordTI"
+				displayAsPassword = "true"/>
+		</mx:FormItem>
+		<mx:FormItem>
+			<mx:Button id = "createAccountButton" label = "Login"/>
+		</mx:FormItem>
+	</mx:Form>
+</mx:VBox>
