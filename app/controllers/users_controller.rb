@@ -7,7 +7,16 @@ class UsersController < ApplicationController
   def new
     @user = User.new
   end
- 
+
+  def create_xml
+    @user = User.new(params[:user])
+    @user.save!
+    self.current_user = @user
+    render :xml => @user.to_xml
+    rescue ActiveRecord::RecordInvalid
+    render :text => "error"
+  end
+
   def create
     logout_keeping_session!
     @user = User.new(params[:user])
