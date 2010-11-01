@@ -10,3 +10,34 @@ paddingBottom="5"
 width="100%"
 height="100%"
 backgroundColor="FFFFFF">
+	<mx:Script>
+		<![CDATA[
+		[Bindable]
+		public var user : XML;
+		]]>
+	</mx:Script>
+<mx:HBox width="100%" height="100%">
+	<mx:VBox width="300" height="100%">
+		<mx:Image source="com/pomodo/assets/logo_md.png"/>
+		<mx:Label text="{'Logged in as: ' + user.login +
+		' (' + user.email + ')'}"/>
+		<mx:Label text="{'Welcome back ' + user.first_name +
+		'!'}"/>
+		<mx:Accordion width="100%" height="350">
+			<pom:TaskCreateBox id="taskCreateBox"/>
+			<pom:ProjectCreateBox id="projectCreateBox"/>
+			<pom:LocationCreateBox id="locationCreateBox"/>
+		</mx:Accordion>
+		<mx:DateChooser id="dateChooser" width="100%"/>
+	</mx:VBox>
+	<mx:VBox width="100%" height="100%">
+		<pom:CommandShell />
+		<mx:TabNavigator width="100%" height="100%">
+			<pom:TasksListBox id="tasksTab"/>
+			<pom:ProjectsListBox id="projectsTab"/>
+			<pom:LocationsListBox id="locationsTab"/>
+			<pom:Notely id="notelyTab"/>
+		</mx:TabNavigator>
+	</mx:VBox>
+</mx:HBox>
+</mx:HBox>
