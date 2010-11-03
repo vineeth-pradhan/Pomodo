@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" height="100%" 
 	label = "Create Account">
+	<mx:Metadata>
+		[Event(name="accountCreate",type="com.pomodo.events.CreateAccountEvent")]
+	</mx:Metadata>
+	<mx:Script>
+		<![CDATA[
+			import mx.controls.Alert;
+			import mx.rpc.events.ResultEvent;
+			import com.pomodo.events.CreateAccountEvent;
+			
+			private function createAccount():void{
+				svcAccountCreate.send();
+			}
+			
+			private function handleAccountCreateResult(event:ResultEvent):void{
+				var result:Object=event.result
+				if(result=="error"){
+					Alert.show("Your account was not created.","Error");
+				}
+				else{
+					dispatchEvent(new CreateAccountEvent(XML(result)));
+				}
+			}
+		]]>
+	</mx:Script>
+	<mx:HTTPService id="svcAccountCreate"
+		url="/users/create_xml"
+		contentType="application/xml"
+		resultFormat="e4x"
+		method="POST"
+		result="handleAccountCreateResult(event)" >
+		<mx:request>
+			<user>
+				<login>{loginTI.text}</login>
+				<email>{emailTI.text}</email>
+				<first_name>{firstNameTI.text}</first_name>
+				<last_name>{lastNameTI.text}</last_name>
+				<password>{passwordTI.text}</password>
+				<password_confirmation>{confirmPasswordTI.text}</password_confirmation>
+			</user>
+		</mx:request>
+	</mx:HTTPService>
 	<mx:Form labelWidth="150">	
 		<mx:FormItem required="true" label = "Username">
 			<mx:TextInput id = "loginTI"/>
@@ -23,7 +64,8 @@
 				displayAsPassword = "true"/>
 		</mx:FormItem>
 		<mx:FormItem>
-			<mx:Button id = "createAccountButton" label = "Login"/>
+			<mx:Button id = "createAccountButton" label = "Create"
+				click="createAccount()"/>
 		</mx:FormItem>
 	</mx:Form>
 </mx:VBox>

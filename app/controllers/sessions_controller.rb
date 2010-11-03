@@ -28,6 +28,17 @@ class SessionsController < ApplicationController
     end
   end
 
+  def create_xml
+    logout_keeping_session!
+    user = User.authenticate(params[:login], params[:password])
+    if user
+      self.current_user = user
+        render :xml => self.current_user.to_xml
+      else
+        render :text => "badlogin"
+    end
+  end
+  
   def destroy
     logout_killing_session!
     flash[:notice] = "You have been logged out."
